@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="titulo">
+    <app-tituloid texto="{{ title }}"></app-tituloid>
+  </div>
+
+  <section>
+    <div>
+      <span *ngIf="loading" class="spinner-border"></span>
+    </div>
+    <ul *ngIf="portifolios">
+      <li *ngFor="let item of portifolios">
+        <app-portifolio-card [item]="item"></app-portifolio-card>
+      </li>
+    </ul>
+  </section>
+</div>

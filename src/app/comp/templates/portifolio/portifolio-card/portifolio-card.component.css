@@ -1,0 +1,58 @@
+.df {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 290px;
+  height: 430px;
+  justify-content: space-between;
+  border: 10px solid gray;
+}
+
+.icone {
+  width: 100%;
+  height: 150px;
+  /* border: 1px solid black; */
+}
+
+.icone i {
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 150px;
+  font-size: 70px;
+}
+
+.icone img {
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 150px;
+  font-size: 70px;
+}
+
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+.card-body a {
+  width: 100%;
+  border-radius: 0;
+}
+
+.detalhes p{
+    font-weight: bold;
+
+}
+
+.detalhes span{
+    font-weight: 300;
+
+}

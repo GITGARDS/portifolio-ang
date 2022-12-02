@@ -1,0 +1,41 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #222;
+  gap: 10px;
+  position: relative;
+}
+
+.endereco .loc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
+}
+
+.endereco .loc span {
+  text-transform: lowercase;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.redes i {
+  color: #222;
+  font-size: 40px;
+}

@@ -1,0 +1,7 @@
+p {
+  color: #222; 
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  border-radius: 0px 0px 10px 10px;
+}

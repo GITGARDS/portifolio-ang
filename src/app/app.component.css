@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  /* width: 100%; */
+}
+.header {
+  z-index: 2;
+  position: fixed;
+  padding-top: 0;
+  top: 0;
+  opacity: .2;
+  transition: .5s;
+  padding: 10px;
+}
+
+.header:hover{
+  opacity: 1;
+}

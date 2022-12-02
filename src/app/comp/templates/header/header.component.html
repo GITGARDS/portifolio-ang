@@ -1,0 +1,34 @@
+<div class="button-menu dfcc">
+  <button
+    class="btn btn-dark dfcc"
+    type="button"
+    data-bs-toggle="offcanvas"
+    data-bs-target="#offcanvasDark"
+    aria-controls="offcanvasDark"
+  >
+    <i class="bi bi-list"></i>
+  </button>
+</div>
+
+<div
+  class="offcanvas offcanvas-start show text-bg-dark"
+  tabindex="-1"
+  id="offcanvasDark"
+  aria-labelledby="offcanvasDarkLabel"
+>
+  <div class="offcanvas-header">
+    <button
+      type="button"
+      class="btn-close btn-close-white"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul *ngFor="let item of lista">
+      <li>
+        <a href="{{ item.link }}">{{ item.etiqueta }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

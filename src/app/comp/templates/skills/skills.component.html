@@ -1,0 +1,11 @@
+<div class="main">
+  <div class="titulo">
+    <app-tituloid texto="{{ title }}"></app-tituloid>
+  </div>
+
+  <div class="container">
+    <div *ngFor="let item of texto">
+      <p>{{ item.item }}</p>
+    </div>
+  </div>
+</div>
